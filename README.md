@@ -44,7 +44,7 @@ On a retail website, the following discounts apply:
 * **DELETE** /bills/delete/{ID}: Delete bill by bill's ID
 
 ### UML Diagram
-(https://drive.google.com/file/d/1mQf8da9-k-RxWxVj099qVVOPeI4sNORN/view?usp=sharing)
+(https://user-images.githubusercontent.com/30494259/123563186-e7611200-d7d0-11eb-8235-19ffb0631fc5.jpg)
 ### API Documentation - Postman
 Link (https://documenter.getpostman.com/view/10340268/Tzeak76L)
 
