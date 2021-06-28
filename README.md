@@ -18,33 +18,33 @@ On a retail website, the following discounts apply:
 ## Running the application locally
 - Run the command `mvn spring-boot:run` in the terminal inside project folder where pom.xml present
 
-                                    or
-  
+ or 
+ 
 - Execute the `main` method in the `BillingApplication.kt` class from your IDE.
 
 # API
  POSTMAN collection Link
  (https://www.getpostman.com/collections/39f883550423b9a50dcc)
-##USER
+## USER
 * **GET** /users/getAll: Gets all the Users
 * **GET** /users/getByID/{ID}: Get User by person's ID
 * **POST** /users/create: Insert a new User
 * **DELETE** /users/delete/{ID}: Delete User by person's ID
 
-##PRODUCT
+## PRODUCT
 * **GET** /products/getAll: Gets all the products
 * **GET** /products/getByID/{ID}: Get product by product's ID
 * **POST** /products/create: Insert a new product
 * **DELETE** /products/delete/{ID}: Delete product by product's ID
 
-##BILL
+## BILL
 * **GET** /bills/getAll: Gets all the bills
 * **GET** /bills/getByID/{ID}: Get bill by bill's ID
 * **POST** /bills/create: Create a new bills
 * **DELETE** /bills/delete/{ID}: Delete bill by bill's ID
 
 ### UML Diagram
-(https://drive.google.com/file/d/1mQf8da9-k-RxWxVj099qVVOPeI4sNORN/view?usp=sharing)
+[UML](https://user-images.githubusercontent.com/30494259/123563186-e7611200-d7d0-11eb-8235-19ffb0631fc5.jpg)
 ### API Documentation - Postman
-Link (https://documenter.getpostman.com/view/10340268/Tzeak76L)
-
+Documentation (https://documenter.getpostman.com/view/10340268/Tzef9NnL)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/39f883550423b9a50dcc?action=collection%2Fimport)
