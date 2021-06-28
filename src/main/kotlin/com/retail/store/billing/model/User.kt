@@ -14,8 +14,8 @@ data class User(
     var id:Long,
     val name:String,
     var phone:String,
-    val type: UserType ,
-    val registeredAt:LocalDateTime = LocalDateTime.now()){
+    val type: UserType,
+    var registeredAt:LocalDateTime = LocalDateTime.now()){
     fun isEligibleForDiscount() : Boolean {
         val currentDateTime = LocalDateTime.now().minusYears(2)
         return registeredAt.isBefore(currentDateTime) && (type == UserType.CUSTOMER)

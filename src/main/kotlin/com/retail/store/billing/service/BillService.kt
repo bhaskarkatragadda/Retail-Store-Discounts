@@ -54,9 +54,12 @@ private  lateinit var productService: ProductService
         if (user.type == UserType.EMPLOYEE || user.type == UserType.AFFILIATE || user.isEligibleForDiscount()){
             discountPercentage= user.type.getDiscountPercentage()
         }
+        println(discountPercentage)
         var discountValue = cartValue - cartGroceryValue
         discountValue = discountValue * discountPercentage / 100
+        println(discountValue)
         val amountAfterUserDiscount = cartValue - discountValue
+        println(amountAfterUserDiscount)
         return (amountAfterUserDiscount - floor(amountAfterUserDiscount / 100) * 5)
 
     }
