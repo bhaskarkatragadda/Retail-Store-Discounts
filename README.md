@@ -46,4 +46,5 @@ On a retail website, the following discounts apply:
 ### UML Diagram
 [UML](https://user-images.githubusercontent.com/30494259/123563186-e7611200-d7d0-11eb-8235-19ffb0631fc5.jpg)
 ### API Documentation - Postman
+Documentation (https://documenter.getpostman.com/view/10340268/Tzef9NnL)
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/39f883550423b9a50dcc?action=collection%2Fimport)
