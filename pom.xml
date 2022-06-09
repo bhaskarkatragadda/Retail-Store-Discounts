@@ -16,8 +16,6 @@
 	<properties>
 		<java.version>11</java.version>
 		<kotlin.version>1.5.20</kotlin.version>
-	</properties>
-	<properties>
 		<sonar.organization>trakinvest</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
